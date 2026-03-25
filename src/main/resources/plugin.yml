@@ -1,0 +1,14 @@
+name: LemonCasino
+version: '1.0.0'
+main: io.github.astrophe1027.lemonCasino.LemonCasino
+api-version: '1.21'
+commands:
+  setslotmachine:
+    description: 슬롯머신의 좌표를 설정합니다.
+    usage: /setslotmachine <x> <y> <z>
+  removeslotmachine:
+    description: 슬롯머신의 좌표를 삭제합니다.
+    usage: /removeslotmachine <x> <y> <z>
+  listslotmachine:
+    description: 슬롯머신의 좌표를 나열합니다.
+    usage: /removeslotmachine <x> <y> <z>
